@@ -1,5 +1,5 @@
 /* Container for content */
-body {
+.content {
         width: 95%;
         max-width: 1200px;
         margin: 0 auto;
@@ -8,9 +8,9 @@ body {
 
 /* Mobile-first media queries */
 @media screen and (min-width: 768px) {
-body {
+.content {
          width: 100%;
-         margin-left: 20px;
+         margin-left: 5px;
          margin-right: 20px;
         }
         
@@ -18,29 +18,23 @@ body {
         }
 
 @media screen and (min-width: 1024px) {
-body {
+.content {
         width: 100%;
         }
         
         /* Desktop-specific styles */
         }
 
-body {
+.content {
         font-family: Arial, Helvetica, khmer, sans-serif;
         background-color: white;
         line-height: 1.5;
-        margin-left: 10%;
-        margin-right: 20%;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 3% 2%;
         padding: 5px;
         }
-* {
-    margin: 0px;
-}
 img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 p {
     font-size: 13px; 
@@ -60,7 +54,8 @@ button {
     cursor: pointer;
     padding: 10px;
     font-family: Moul, serif;
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     width: 50%;
 }
 .button.active {
