@@ -11,7 +11,7 @@
 .content {
          width: 100%;
          margin-left: 5px;
-         margin-right: 20px;
+         margin-right: 5px;
         }
         
         /* Tablet-specific styles */
@@ -55,7 +55,7 @@ button {
     padding: 10px;
     font-family: Moul, serif;
     margin-top: 7px;
-    margin-bottom: 7px;
+    margin-bottom: 2px;
     width: 50%;
 }
 .button.active {
