@@ -10,8 +10,8 @@
 @media screen and (min-width: 768px) {
 .content {
          width: 95%;
-         margin-left: 10px;
-         margin-right: 25px;
+         margin-left: 0px;
+         margin-right: 20px;
         }
         
         /* Tablet-specific styles */
