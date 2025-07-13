@@ -1,41 +1,20 @@
-/* Container for content */
+* {
+    margin: unset;
+}
 .content {
-        width: 95%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        }
-
-/* Mobile-first media queries */
-@media screen and (min-width: 768px) {
-.content {
-         width: 100%;
-         margin-left: 20px;
-         margin-right: 20px;
-        }
-        
-        /* Tablet-specific styles */
-        }
-
-@media screen and (min-width: 1024px) {
-.content {
-        width: 100%;
-        }
-        
-        /* Desktop-specific styles */
-        }
-
-.content {
-        font-family: Arial, Helvetica, khmer, sans-serif;
         background-color: white;
         line-height: 1.5;
-        margin: 3% 2%;
-        padding: 5px;
+        width: 100%;
+        max-width: 375px;
+        height: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
         }
 img {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 5px 0px;
 }
 p {
     font-size: 13px; 
@@ -43,6 +22,7 @@ p {
     color: gray;
     font-weight: 400;
     font-style: normal;
+    margin: 8px 0px;
 }
 button {
     background-color: #ecf0f1;
@@ -55,9 +35,7 @@ button {
     cursor: pointer;
     padding: 8px;
     font-family: Moul, serif;
-    margin-top: 7px;
     width: 50%;
-    margin-bottom: -5px;
 }
 .button.active {
     /* ative-status */
@@ -66,17 +44,17 @@ button {
 }
 
 .button active {
-    margin-right: -3px;
+    margin-right: -5px;
 }
 .button {
-    margin-left: -4px;
+    margin-left: -3px;
 }
 
 table {
     border-collapse: collapse;
-    width: 99%;
+    width: 100%;
     height: 15px;
-    margin: 1px;
+    margin: 0px;
     border: 1px gray solid;
 }
 table td {
@@ -85,9 +63,8 @@ table td {
     font-size: 14px;
     text-align: left;
     border: 1px rgb(183, 181, 181) solid;
-    padding: 10px;
+    padding: 8px;
 }
 .tbody {
-    width: 50%; 
     background-color: #ecf0f1
 } 
